@@ -1,0 +1,68 @@
+
+body{
+    background: linear-gradient(pink, white);
+    text-align:center;
+}
+h1{
+    color:deeppink;
+}
+
+.menu{
+    font-size:22px;
+    color:purple;
+    font-weight:bold;
+}
+
+img{
+    border-radius:20px;
+    box-shadow:5px 5px 15px gray;
+}
+
+button{
+    background-color:deeppink;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+button:hover{
+    background-color:hotpink;
+    transform:scale(1.1);
+}
+.card{
+    background:white;
+    width:250px;
+    margin:20px auto;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:5px 5px 15px gray;
+    border:3px solid deeppink;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+a:hover{
+    color:yellow;
+}
+h2{
+    color:purple;
+}
+h1{
+    color:deeppink;
+    font-size:50px;
+}
+
+h2{
+    color:purple;
+    font-size:30px;
+}
+img:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}

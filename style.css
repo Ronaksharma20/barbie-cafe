@@ -66,3 +66,26 @@ img:hover{
     transform:scale(1.05);
     transition:0.3s;
 }
+.menu-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    width:220px;
+}
+.review{
+    background:white;
+    border:2px solid pink;
+    border-radius:15px;
+    padding:15px;
+    margin:15px auto;
+    width:300px;
+    box-shadow:5px 5px 15px gray;
+}
+
+.review h3{
+    color:deeppink;
+}
